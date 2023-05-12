@@ -7,7 +7,7 @@ on:
 jobs:
    jobfortwo:
 
-   runs-on: windows-latest
+   runs-on: ubantu-latest
 
      steps:
      
