@@ -7,7 +7,7 @@ on:
 jobs:
    jobfortwo:
 
-   runs-on: ubantu-latest
+   runs-on: ubuntu-latest
 
      steps:
      
