@@ -1,18 +1,19 @@
-name workflow2
+name: workflow2
 
 on:
   push:
-     branches: [ "main" ]
+    branches: [ "main" ]
 
 jobs:
-   jobfortwo:
+  jobfortwo:
+    runs-on: ubuntu-latest
 
-   runs-on: ubuntu-latest
-
-     steps:
-     
-      - uses: actions/checkout@v3
-
+    steps:
+    
+    
+    
+    
+    - uses: actions/checkout@v3
       
-      - name: Run a one-line script
-        run: echo this is from vs and file name is two.yml
+    - name: Run a one-line script
+      run: echo this is from vs and file name is two.yml
