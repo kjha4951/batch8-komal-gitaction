@@ -1,0 +1,19 @@
+name: workflow2
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  jobfortwo:
+    runs-on: windows-latest
+
+    steps:
+    
+    
+    
+    
+    - uses: actions/checkout@v3
+      
+    - name: Run a one-line script
+      run: echo this is from vs and file name is two.yml
